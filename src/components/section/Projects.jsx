@@ -39,23 +39,23 @@ export const Projects = () => (
           shadow: "rgba(59,110,54,0.3)",
         },
         {
+          title: "16-bit RISC microprocessor",
+          subtitle: "Xilinx Spartan-7 FPGA, SystemVerilog",
+          desc: "16-bit RISC (SLC-3) Microprocessor in SystemVerilog with an register file, ALU, and state-based instruction sequencing. Verified results through timing waveforms and synthesis.",
+          shadow: "rgba(17,23,12,0.4)",
+        },
+        {
           title: "Autonomous Rover",
           subtitle: "Arduino MEGA, SOLIDWORKS, Ultrasonic Detection, C",
           desc: "Worked with a team to design and build an autonomous rover to self-navigate through an obstacle course via sensor detection. Placed 2nd out of 8+ teams based on speed and performance.",
           shadow: "rgba(217,123,102,0.4)",
         },
         {
-          title: "Rube-Goldberg Machine",
-          subtitle: "Arduino Uno, Sensor Detection, C",
-          desc: "Utilized household items along with Arduino to create a complex'marble slide' and implementing several pathways based on sensor detection.  ",
-          shadow: "rgba(59,130,246,0.3)",
-        },
-        {
           title: "FIRST Tech Challenge",
           subtitle: "TensorFlow, Git, Mechanical Parts (Actuator, Chassis Design), Java ",
           desc: "Team #13380; Competed in various robotics tournaments to complete 'missions' on a specifed area. Senior design team and assisted with robot testing and performance.",
           shadow: "rgba(9,10,246,0.3)",
-        },
+        }
       ].map((proj, i) => (
         <motion.div
           key={proj.title}
