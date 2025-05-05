@@ -35,7 +35,7 @@ export const Experience = () => (
       {[
         {
           company: 'Siemens',
-          role: 'FPGA Engineer Intern',
+          role: 'Hardware Engineer Intern',
           desc: 'Siemens Healthineers => Summer 2025',
         },
         {
